@@ -1,0 +1,68 @@
+.auth__main {
+    display: flex;
+    align-items: center;
+    // background-color: $primary;
+    background-size: cover;
+    background-repeat: no-repeat;
+    //background-image: url(https://res.cloudinary.com/dk82ead5h/image/upload/v1607396765/93586_mpdnok.jpg);
+    // background-color: #262626;
+    background-color: #0d1117;
+    justify-content: center;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.auth__box-container {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .34);
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+}
+
+.auth__title {
+    //color: darken($color: $primary, $amount: 8);
+    color: $primary;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.auth__input {
+    color: $dark-grey;
+    border: 0px;
+    border-bottom: 1px solid $light-grey;
+    font-size: 16px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100%;
+    &:focus {
+        outline: none;
+    }
+}
+
+.auth__social-networks {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.auth__alert-error {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.auth__Opcionts {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+}

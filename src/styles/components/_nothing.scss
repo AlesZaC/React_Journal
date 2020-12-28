@@ -1,0 +1,12 @@
+.nothing__main_content {
+    background-color: lighten($color: $primary, $amount: 10);
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    p {
+        text-align: center;
+    }
+}

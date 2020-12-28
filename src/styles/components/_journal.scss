@@ -1,0 +1,113 @@
+.journal_main-content {
+    display: flex;
+}
+
+.journal_sidebar {
+    // background-color: #000000;
+    background-color: #0d1117;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    width: 310px;
+}
+
+.journal_sidebar-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.journal_sidebar-navbar h3 {
+    font-weight: lighter;
+}
+
+.journal__new-entry {
+    //border: 2px solid yellow;
+    align-items: center;
+    // cursor: pointer;
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    width: 30%;
+    align-items: center;
+    margin: 0px auto;
+    transition: color .3s;
+    &:hover {
+        color: $primary;
+    }
+}
+
+.journal__entries {
+    cursor: pointer;
+    margin-top: 30px;
+    flex: 1 1 auto;
+    overflow-y: scroll;
+}
+
+
+/* .journal__entries::-webkit-scrollbar {
+    display: none;
+} */
+
+.journal__entry {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    color: $dark-grey;
+    display: flex;
+    margin-bottom: 10px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.journal__entry-picture {
+    margin: 0 auto;
+    min-height: 45px;
+    min-width: 40%;
+}
+
+.journal__entry_body {
+    padding: 0px;
+    width: 40%;
+}
+
+.journal__entry_title {
+    //border: 5px solid blue;
+    padding: 5px;
+    overflow: hidden;
+    min-height: 10px;
+    min-width: 10px;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.journal__entry_content {
+    // border: 5px solid blue;
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 5px;
+    font-size: 12px;
+    min-height: 35px;
+}
+
+.journal__entry-date-box {
+    // border: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-width: 15px;
+    min-height: 25px;
+    float: right;
+}
+
+.journal__entry-date-box span {
+    font-size: 14px;
+}
